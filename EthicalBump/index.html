@@ -14,17 +14,21 @@
     <style>
     .sezionebenvenuto
     {
-        height: 500px;
-        background-color: rgba(224, 15, 155);
-        background-image: url("sezione1/aquila.png");
+        height: 600px;
+        /*background-color: rgba(224, 15, 155);*/
+        background-image: url("sezione1/img2.png");
     }
+
     #imgbenvenuto 
     {
         top: 50%;
         left: 50%;
         width: 100%;
         height: 100%;
-        background-color: rgb(250, 128, 114, 0.7);
+        background-color: rgb(255, 192, 203, 0.5);
+        animation-name: esempio;
+        animation-duration: 10s;
+        
     }
     .dimsection1 
     {
@@ -32,9 +36,9 @@
     }
     .colorsection1
     {
-        background-color: rgb(140, 39, 187);
+        background-color: rgb(143, 0, 255);
         border-top: 3px dotted !important;
-        border-color: violet !important;
+        border-color: rgb(255, 192, 203) !important;
     }
     .dimsection2 
     {
@@ -42,13 +46,13 @@
     }
     .colorsection2
     {
-        background-color: rgb(23, 48, 192);
+        background-color: rgb(0, 127, 255);
         border-bottom: 3px dotted !important;
-        border-color: violet !important;
+        border-color: rgb(255, 192, 203) !important;
     }
     .viola
     {
-        color: violet!important;
+        color: rgb(255, 192, 203)!important;
         font-size: 25px;
     }
     .blu
@@ -59,8 +63,17 @@
     .bordo-navbar
     {
         border-bottom: 3px dotted !important;
-        border-color: violet !important;
+        border-color: rgb(255, 192, 203) !important;
     }
+
+
+    @keyframes esempio {
+    0% {background-color:rgba(0, 0, 0); left:0px; top:0px;}
+    30% {background-color:rgb(29, 51, 74, 0.5); left:0px; top:0px;}
+    50% {background-color:rgb(143, 0, 255, 0.6); left:50px; top:50px;}
+    70% {background-color:rgb(229, 190, 1, 0.5); left:100px; top:100px;}
+    100% {background-color:rgb(255, 192, 203, 0.5); left:50px; top:50px;}
+}
     </style>
   </head>
   <body>
@@ -70,7 +83,7 @@
         <div class="container-fluid">
           <a class="navbar-brand viola" href="#">
             <img src="logo/logo.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
-            ℰ𝓉𝒽𝒾𝒸𝒶𝓁ℬ𝓊𝓂𝓅
+            EthicalBump
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -108,20 +121,36 @@
       <!-- ################ SECTION BENVENUTO ################# -->
 
         <div class="container-fluid">
-            <div class="row dimsection1 colorsection1">
+            <!--<div class="row dimsection1 colorsection1">
                
-            </div>
+            </div>-->
 
             <div class="row sezionebenvenuto">
-                <img id ="imgbenvenuto" src="sezione1/ethical_black_gold_sprey.png">
+                <img id ="imgbenvenuto" src="sezione1/img4.png">
             </div>
             
-            <div class="row dimsection2 colorsection2">
+            <!--<div class="row dimsection2 colorsection2">
                
-            </div>
+            </div>-->
          </div>
       
-
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
 
 
 
