@@ -14,7 +14,21 @@
     <style>
     #nav_bar
     {
-      height: 80px;
+      height: 75px;
+      background-image: url("sezione1/img2.png") !important;
+      background-size: 2000px 1080px;
+    }
+    body
+    {
+      /*background-color: black;*/
+      background-image: url("sezione1/img.png") !important;
+      background-size: 100% 100%;
+    }
+    .shopsection
+    {
+      background-image: url("sezione1/img.png") !important;
+      background-size: 100% 100%;
+
     }
     .sezionebenvenuto
     {
@@ -51,26 +65,6 @@
         /*animation-name: animazione;*/
         animation-duration: 10s;
     }
-    .dimsection1 
-    {
-        height: 60px !important;
-    }
-    .colorsection1
-    {
-        background-color: rgb(143, 0, 255);
-        border-top: 3px solid !important;
-        border-color: rgb(255, 192, 203) !important;
-    }
-    .dimsection2 
-    {
-        height: 60px !important;
-    }
-    .colorsection2
-    {
-        background-color: rgb(0, 127, 255);
-        border-bottom: 3px solid !important;
-        border-color: rgb(255, 192, 203) !important;
-    }
 
     .roselogo
     {
@@ -104,7 +98,7 @@
     
     .bordo-navbar
     {
-        border-bottom: 2px solid !important;
+        border-bottom: 1px solid !important;
         border-color: rgb(255, 192, 203) !important;
     }
 
@@ -126,11 +120,11 @@
   <body>
     <!-- ################# NAVBAR ################## -->
 
-    <nav id="nav_bar" class="navbar navbar-expand-lg fixed-top navbar-dark justify-content-center bordo-navbar">
+    <nav id="nav_bar" class="navbar navbar-expand-lg fixed-top navbar-dark bordo-navbar">
         <div class="container-fluid">
           <a class="navbar-brand roselogo" href="#">
             <img src="logo/aquila-white.png" alt="logo" width="70" height="70" class="d-inline-block align-text-center">
-            EthicalBump
+            <img src="sezione1/img3.png" alt="logo" width="100" height="80" class="d-inline-block align-text-center">
           </a>
           <button class="navbar-toggler rosed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -181,6 +175,52 @@
          </div>
       
       <!-- ################ SECTION SHOP ################# -->
+         
+      <div class="container my-5 text-center shopsection">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <h1 class="display-5 fw-bold">Shop</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4"></p> <!-- TAG PER SOTTOTITOLO -->
+
+      <div class="card row" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <div class="card row" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        </div>
+      </div>
+    
          <br>
          <br>
          <br>
