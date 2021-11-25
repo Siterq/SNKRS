@@ -92,9 +92,23 @@
         border-color: rgb(255, 192, 203) !important;
     }
 
+    .backgroundlink
+    {
+        background-image: url("sezione1/img2.png") !important;
+        background-size: 2000px 1080px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
     .dropdown:hover>.dropdown-menu 
     {
         display: block;
+    }
+
+    div.col-sm-3
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     @keyframes animazione {
@@ -119,7 +133,7 @@
           <button class="navbar-toggler rosed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse backgroundlink" id="navbarNavDropdown">
             <ul class="navbar-nav ms-md-auto">
                 <li class="nav-item dropdown">
                     <a class="nav-link rose" href="#" id="navbarDropdownMenuLink" role="button"  aria-expanded="false">
@@ -229,7 +243,26 @@
             </div>
           </div>
 
-          <div class="col-sm-3"">
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="sezione1/img15.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
             <div class="card">
               <img src="sezione1/img15.png" class="card-img-top" alt="...">
               <div class="card-body">
