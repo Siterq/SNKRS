@@ -11,3 +11,11 @@ $(document).ready(function(){
       }
     });
   });
+
+  function chiusuranav()
+  {
+  $(document).on('click','.navbar-collapse.show',function(e) {
+      $(this).collapse('hide');
+  });
+}
+
