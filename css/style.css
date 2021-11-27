@@ -1,0 +1,107 @@
+#nav_bar
+    {
+      height: 75px;
+      background-image: url("../sezione1/img2.png") !important;
+      background-size: 2000px 1080px;
+    }
+    
+    .shopsection
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .sezionebenvenuto
+    {
+        height: 700px;
+        background-image: url("../sezione1/img2.png");
+        /*filter: blur(10px); 
+        -webkit-filter: blur(10px);*/
+    }
+
+    #imgbackgroundbenvenuto
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 20px;
+        width: 500px;
+        height: 500px;
+        /*background-image: url("sezione1/img5.png");*/
+    }
+
+    #imgbenvenuto 
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 20px;
+        width: 500px;
+        height: 500px;
+        /*background-color: rgba(255, 255, 255, 0.1);*/
+        /*background-image: url("sezione1/img11.png");*/
+        /*background-size: 100% 100%;*/
+        /*animation-name: animazione;*/
+        animation-duration: 10s;
+    }
+
+    .rose
+    {
+        color: rgb(255, 192, 203)!important;
+        font-size: 16px;
+    }
+
+    .rosed
+    {
+        background-color: rgb(117, 21, 30)!important;
+        font-size: 16px;
+    }
+
+    .rosedin
+    {
+        color: rgb(255, 255, 255)!important;
+        border-bottom: 1px solid !important;
+    }
+
+    .rosedin:hover
+    {
+        color: rgb(255, 192, 203)!important;
+        background-color: rgb(0, 0, 0)!important;
+    }
+    
+    .bordo-navbar
+    {
+        border-bottom: 1px solid !important;
+        border-color: rgb(255, 192, 203) !important;
+    }
+
+    .backgroundlink
+    {
+        background-image: url("../sezione1/img2.png") !important;
+        background-size: 2000px 1080px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .dropdown:hover>.dropdown-menu 
+    {
+        display: block;
+    }
+
+    div.col-sm-3
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    @keyframes animazione {
+        0% {background-color:rgba(0, 0, 0); left:0px; top:0px;}
+        30% {background-color:rgb(29, 51, 74, 0.5); left:0px; top:0px;}
+        50% {background-color:rgb(143, 0, 255, 0.6); left:50px; top:50px;}
+        70% {background-color:rgb(229, 190, 1, 0.5); left:100px; top:100px;}
+        100% {background-color:rgb(255, 192, 203, 0.6); left:50px; top:50px;}
+    }
